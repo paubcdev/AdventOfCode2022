@@ -4,3 +4,4 @@ This will be the README and log file for my attemp on the Advent of Code 2022. I
 
 * Day 1: Calorie Counting!
 * Day 2: Cheating at Rock, Paper, Scissors!
+* Day 3: Compartmentalization of the rations!
