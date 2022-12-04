@@ -1,8 +1,9 @@
 use itertools::Itertools;
 
 fn main() {
-    println!("Part 1: {}", part1());
-    println!("Part 2: {}", part2());
+    let problem_input = include_str!("../../inputs/day03.txt");
+    println!("Part 1: {}", part1(problem_input));
+    println!("Part 2: {}", part2(problem_input));
 
 }
 
@@ -17,8 +18,7 @@ fn pocket_conversor(pocket: &str) -> i64 {
     })
 }
 
-fn part1() -> i64 {
-    let input = include_str!("../../inputs/day03.txt");
+fn part1(input: &str) -> i64 {
     let sacks: Vec<_> = input.lines().collect();
 
     let mut priority = 0;
@@ -34,8 +34,7 @@ fn part1() -> i64 {
     priority
 }
 
-fn part2() -> i64 {
-    let input = include_str!("../../inputs/day03.txt");
+fn part2(input: &str) -> i64 {
     let sacks: Vec<_> = input.lines().collect();
 
     let mut priority_new = 0;
@@ -50,4 +49,33 @@ fn part2() -> i64 {
         priority_new += duplicate + 1;
     }
     priority_new
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    #[test]
+    fn default_test_1() {
+        let test_input =
+        "vJrwpWtwJgWrhcsFMMfFFhFp
+jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
+PmmdzqPrVvPwwTWBwg
+wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
+ttgJtRGJQctTZtZT
+CrZsJsPPZsGzwwsLwLmpwMDw";
+        assert_eq!(part1(test_input), 157);
+        assert_eq!(part2(test_input), 70);
+    }
+
+    #[test]
+    fn default_test_2() {
+        let test_input =
+        "vJrwpWtwJgWrhcsFMMfFFhFp
+jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
+PmmdzqPrVvPwwTWBwg
+wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
+ttgJtRGJQctTZtZT
+CrZsJsPPZsGzwwsLwLmpwMDw";
+        assert_eq!(part2(test_input), 70);
+    }
 }
