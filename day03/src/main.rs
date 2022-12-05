@@ -54,28 +54,22 @@ fn part2(input: &str) -> i64 {
 #[cfg(test)]
 mod tests {
     use super::*;
-    #[test]
-    fn default_test_1() {
-        let test_input =
-        "vJrwpWtwJgWrhcsFMMfFFhFp
+
+    const TEST_INPUT: &str =
+    "vJrwpWtwJgWrhcsFMMfFFhFp
 jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
 PmmdzqPrVvPwwTWBwg
 wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
 ttgJtRGJQctTZtZT
 CrZsJsPPZsGzwwsLwLmpwMDw";
-        assert_eq!(part1(test_input), 157);
-        assert_eq!(part2(test_input), 70);
+    #[test]
+    fn default_test_1() {
+        assert_eq!(part1(TEST_INPUT), 157);
+        assert_eq!(part2(TEST_INPUT), 70);
     }
 
     #[test]
     fn default_test_2() {
-        let test_input =
-        "vJrwpWtwJgWrhcsFMMfFFhFp
-jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
-PmmdzqPrVvPwwTWBwg
-wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
-ttgJtRGJQctTZtZT
-CrZsJsPPZsGzwwsLwLmpwMDw";
-        assert_eq!(part2(test_input), 70);
+        assert_eq!(part2(TEST_INPUT), 70);
     }
 }
