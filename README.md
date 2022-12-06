@@ -8,5 +8,8 @@ This will be the README and log file for my attemp on the Advent of Code 2022. I
 * **Day 2:** Cheating at Rock, Paper, Scissors! :star2: :star2:
 * **Day 3:** Compartmentalization of the rations! :star2: :star2:
 * **Day 4:** Let's clean the site! :star2: :star2:
-* <ins>**Day 5:** CRATEMOVER 9001! :star2: :star2:</ins>
+* <ins>**Day 5:** CRATEMOVER 9001!</ins> :star2: :star2:
 * **Day 6:** Communication Breakdown :star2: :star2:
+
+***
+## Number of starts collected: 12!
