@@ -38,12 +38,12 @@ struct FileMetadata {
 fn main() -> Result<(), Box<dyn Error>> {
     let data = include_str!("../../inputs/day07.txt");
     
-    println!("Part 1: {}", solve_part1(data));
-    println!("Part 2: {}", solve_part2(data));
+    println!("Part 1: {}", solve_part_1(data));
+    println!("Part 2: {}", solve_part_2(data));
     Ok(())
 }
 
-fn solve_part1(data: &str) -> i64 {
+fn solve_part_1(data: &str) -> i64 {
     let fs = parse_tree(data);
     let mut result = 0;
     for dir in fs.tree.keys() {
@@ -56,7 +56,7 @@ fn solve_part1(data: &str) -> i64 {
     result
 }
 
-fn solve_part2(data: &str) -> i64 {
+fn solve_part_2(data: &str) -> i64 {
     let fs = parse_tree(data);
     let free_space = 70000000 - fs.dir_size(&String::from("")).unwrap();
     let mut result_2 = i64::MAX;
@@ -131,13 +131,13 @@ $ ls
 
     #[test]
     fn test_part_1() {
-        let part1 = solve_part1(DATA);
+        let part1 = solve_part_1(DATA);
         assert_eq!(part1, 95437);
     }
 
     #[test]
     fn test_part_2() {
-        let part2 = solve_part2(DATA);
+        let part2 = solve_part_2(DATA);
         assert_eq!(part2, 24933642);
     }
 }
