@@ -11,6 +11,7 @@ This will be the README and log file for my attemp on the Advent of Code 2022. I
 * <ins>**Day 5:** CRATEMOVER 9001!</ins> :star2: :star2:
 * **Day 6:** Communication Breakdown :star2: :star2:
 * **Day 7:** File system shenanigans :star2: :star2:
+* **Day 8:** The tree house! :star2: :star2:
 
 ***
 
