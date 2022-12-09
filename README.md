@@ -12,9 +12,10 @@ This will be the README and log file for my attemp on the Advent of Code 2022. I
 * **Day 6:** Communication Breakdown :star2: :star2:
 * **Day 7:** File system shenanigans :star2: :star2:
 * **Day 8:** The tree house! :star2: :star2:
+* **Day 9:** The Rope Bridge of DOOOOOM (actually it's just physics) :star2: :star2:
 
 ***
 
 ## Number of starts collected
 
-14!
+18!
