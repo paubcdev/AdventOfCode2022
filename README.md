@@ -13,9 +13,10 @@ This will be the README and log file for my attemp on the Advent of Code 2022. I
 * **Day 7:** File system shenanigans :star2: :star2:
 * **Day 8:** The tree house! :star2: :star2:
 * **Day 9:** The Rope Bridge of DOOOOOM (actually it's just physics) :star2: :star2:
+* <ins>**Day 10:** CRT and counting cycles</ins> :star2: :star2:
 
 ***
 
 ## Number of starts collected
 
-18!
+20!
