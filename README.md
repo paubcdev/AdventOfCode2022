@@ -14,7 +14,7 @@ This will be the README and log file for my attemp on the Advent of Code 2022. I
 * **Day 8:** The tree house! :star2: :star2:
 * **Day 9:** The Rope Bridge of DOOOOOM (actually it's just physics) :star2: :star2:
 * <ins>**Day 10:** CRT and counting cycles</ins> :star2: :star2:
-* **Day 11:**
+* <ins>**Day 11:** Let the monkey games begin! </ins>
 * **Day 12:** Climb and punishment :star2: :star2:
 
 ***
