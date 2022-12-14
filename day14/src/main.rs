@@ -1,14 +1,15 @@
-fn main() {
-    let input: &str = include_str!("../../inputs/day14.txt");
-    
-    println!("Part 1: {}", part_1_solver(input));
-    println!("Part 2: {}", part_2_solver(input));
-}
 #[derive(Copy, Clone, Debug)]
 enum Cell {
     Air,
     Rock,
     Sand,
+}
+
+fn main() {
+    let input: &str = include_str!("../../inputs/day14.txt");
+    
+    println!("Part 1: {}", part_1_solver(input));
+    println!("Part 2: {}", part_2_solver(input));
 }
 
 fn part_1_solver(input: &str) -> i32 {
