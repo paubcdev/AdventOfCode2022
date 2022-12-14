@@ -16,10 +16,11 @@ This will be the README and log file for my attemp on the Advent of Code 2022. I
 * <ins>**Day 10:** CRT and counting cycles</ins> :star2: :star2:
 * <ins>**Day 11:** Let the monkey games begin! </ins> :star2: :star2:
 * **Day 12:** Climb and punishment :star2: :star2:
-* **Day 13:** Elves in distress!
+* **Day 13:** Elves in distress! :star2: :star2:
+* **Day 14:** Behind the waterfall, under the moonlight~ :star2: :star2:
 
 ***
 
 ## Number of starts collected
 
-26!
+28!
