@@ -126,3 +126,20 @@ fn part_2_solver(input: &str) -> i32 {
 	}
     count
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    const DATA: &str = "498,4 -> 498,6 -> 496,6
+503,4 -> 502,4 -> 502,9 -> 494,9";
+
+    #[test]
+    fn test_part_1() {
+        assert_eq!(part_1_solver(DATA), 24);
+    }
+
+    #[test]
+    fn test_part_2() {
+        assert_eq!(part_2_solver(DATA), 93);
+    }
+}
