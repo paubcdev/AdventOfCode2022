@@ -21,9 +21,10 @@ This will be the README and log file for my attemp on the Advent of Code 2022. I
 * **Day 15:** Underground beacons! :star2: :star2:
 * <ins>**Day 16:** The elephants in the... magma room?</ins> :star2: :star2:
 * **Day 17:** Wait, Is this... Tetris? :star2: :star2:
+* **Day 18:** "The Boulder feels conflicted..." :star2: :star2:
 
 ***
 
 ## Number of starts collected
 
-34!
+36!
