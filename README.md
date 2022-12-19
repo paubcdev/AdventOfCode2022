@@ -22,9 +22,10 @@ This will be the README and log file for my attemp on the Advent of Code 2022. I
 * <ins>**Day 16:** The elephants in the... magma room?</ins> :star2: :star2:
 * **Day 17:** Wait, Is this... Tetris? :star2: :star2:
 * **Day 18:** "The Boulder feels conflicted..." :star2: :star2:
+* **Day 19:** We must construct additional Robots! :star2: :star2:
 
 ***
 
 ## Number of starts collected
 
-36!
+38!
