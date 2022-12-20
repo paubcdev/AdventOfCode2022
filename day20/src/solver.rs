@@ -18,13 +18,7 @@ pub fn decrypt(input: &str, key: i64, rounds: usize) -> i64 {
             assert_eq!(ir, Some(i));
 
             let new_index = (pos as i64 + num).rem_euclid(original_numbers.len() as i64 - 1);
-            // dbg!(new_index, num);
             indices.insert(new_index as usize, i);
-
-            // dbg!(indices
-            //     .iter()
-            //     .map(|&i| original_numbers[i])
-            //     .collect::<Vec<_>>());
         }
     }
 
