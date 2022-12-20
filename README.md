@@ -23,9 +23,10 @@ This will be the README and log file for my attemp on the Advent of Code 2022. I
 * **Day 17:** Wait, Is this... Tetris? :star2: :star2:
 * **Day 18:** "The Boulder feels conflicted..." :star2: :star2:
 * **Day 19:** We must construct additional Robots! :star2: :star2:
+* **Day 20:** The GPS is Groovin~ :star2: :star2:
 
 ***
 
 ## Number of starts collected
 
-38!
+40!
