@@ -25,9 +25,11 @@ This will be the README and log file for my attemp on the Advent of Code 2022. I
 * **Day 19:** We must construct additional Robots! :star2: :star2:
 * **Day 20:** The GPS is Groovin~ :star2: :star2:
 * **Day 21:** Damn you monkeys! It was humn all along! :star2: :star2:
+* **Day 22:** *DID NOT FINISH*
+* **Day 23:** Unstable Diffusion :star2: :star2:
 
 ***
 
 ## Number of starts collected
 
-42!
+44/46!
