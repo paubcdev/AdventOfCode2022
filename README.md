@@ -28,9 +28,10 @@ This will be the README and log file for my attemp on the Advent of Code 2022. I
 * **Day 22:** *DID NOT FINISH*
 * **Day 23:** Unstable Diffusion :star2: :star2:
 * <ins>**Day 24:** Braving the elements</ins> :star2: :star2:
+* **Day 25:** "Oh the humanity!" :star2: :star2:
 
 ***
 
 ## Number of starts collected:
 
-46/48!
+50/50!
