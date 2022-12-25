@@ -31,6 +31,6 @@ This will be the README and log file for my attemp on the Advent of Code 2022. I
 
 ***
 
-## Number of starts collected
+## Number of starts collected:
 
 46/48!
